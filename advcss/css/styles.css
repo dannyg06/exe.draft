@@ -1,0 +1,164 @@
+body {
+    background-color:#adc178
+}
+
+img{
+    display: block;
+    margin:0 auto;
+    width: 100%;
+}
+
+h1, h2, h3{
+    color:green;
+    text-align: center;
+}
+
+#container {
+    width: 65%;
+    margin: 20px auto;
+    background-color: #adc178;
+    border-radius: 20px 0 0;
+    padding: 20px;
+}
+
+header{
+    background-color:#f0ead2;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    color:white;
+    text-shadow: 2px 2px 1px black;
+}
+
+nav {
+    background-color: #f0ead2;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul{
+    padding: 0%;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    background-color: blueviolet;
+    width: 150px;
+    height: 40px;
+    margin: 0 5px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d7f75b;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li a:hover {
+    background-color: #ffadc6;
+    color: #5079b2;
+    border: 6px double gray;
+}
+main {
+    display: flex;
+    background-color: #f0ead2;
+    padding: 20px;
+    margin: 10px;
+}
+
+section, aside {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+section {
+    width: 80%;
+}
+
+aside {
+    width: 20%;
+}
+
+.single_page {
+    section {
+        width: 100%;
+    }
+}
+
+#main_img_resize{
+    width: 100%;
+}
+
+#lower_area {
+    display: flex;
+}
+
+.col{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #a98467;
+    text-align: center;
+    padding: 40px 0;
+    color: #6c584c;
+    font-weight: bold;
+}
+
+.button a {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #C3D134;
+    color: #A68160;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 4px solid #90BFD7;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #F2D5E3;
+    border-color: antiquewhite;
+}
+
+table {
+    border: 4px solid palegreen;
+    margin: auto;
+    padding: auto;
+}
+
+th {
+    font-size: 25px;
+    text-align:center;
+}
+
+td, tr {
+    border: 4px double  green;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    inline-size: 10px;
+}
+
+td img {
+    inline-size: 80px;
+    width:80px;
+    height:80px;
+
+}
