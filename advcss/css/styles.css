@@ -79,6 +79,7 @@ section, aside {
     border: 2px solid black;
     margin: 20px;
     padding: 20px;
+    
 }
 
 section {
@@ -116,6 +117,11 @@ footer {
     padding: 40px 0;
     color: #6c584c;
     font-weight: bold;
+}
+
+.tstyle {
+    color: #90BFD7;
+    text-shadow: 1px 1px 1px black;
 }
 
 .button a {
