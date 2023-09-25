@@ -186,6 +186,10 @@ th, tr {
         font-family: 'Mooli', sans-serif;
     }
 
+    .single_col {
+        width: 97%;
+    }
+
     .single_page {
         width: 100%;
     }
