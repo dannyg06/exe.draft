@@ -180,14 +180,21 @@ th, tr {
         border-radius: 10px;
         text-align: justify;
     }
+
+    aside{
+        text-align: left;
+    }
     .col {
         width: 50%;
         text-align: justify;
         font-family: 'Mooli', sans-serif;
     }
+    .button_space2{
+        margin: 1900px auto 10px;
+    }
 
-    .single_col {
-        width: 97%;
+    .single_button{
+        margin: 40px auto 10px;
     }
 
     .single_page {
@@ -196,6 +203,12 @@ th, tr {
 
     #lower_area {
         display: flex;
+    }
+
+    .single_col{
+        margin-left: 20px;
+        margin-right: 20px;
+
     }
 }
 
@@ -287,5 +300,9 @@ th, tr {
 
     .button_space {
         margin: 20px auto 0 auto;
+    }
+
+    .button_space2 {
+        margin: 160px auto 0 auto;
     }
 }
